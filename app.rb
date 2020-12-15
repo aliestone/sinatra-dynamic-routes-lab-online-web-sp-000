@@ -6,7 +6,8 @@ class App < Sinatra::Base
   end
 
   get "/reversename/:name" do
-    "#{params[:name.reverse]}"
+    @reversename = params[:name.reverse
+    @reversename
    end
 
   get "/:operation/:number1/:number2" do
